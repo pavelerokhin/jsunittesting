@@ -1,5 +1,5 @@
-const SoundPlayer = require("./SoundPlayer");
-import SoundPlayerConsumer from "./SoundPlayerConsumer";
+const SoundPlayer = require("../SoundPlayer");
+const SoundPlayerConsumer = require("../SoundPlayerConsumer");
 jest.mock("../SoundPlayer"); // SoundPlayer is now a mock constructor
 
 beforeEach(() => {
