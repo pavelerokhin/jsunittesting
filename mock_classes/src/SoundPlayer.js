@@ -1,6 +1,6 @@
 "use strict";
 
-export default class SoundPlayer {
+module.exports = class SoundPlayer {
   constructor() {
     this.foo = "bar";
   }
@@ -8,4 +8,4 @@ export default class SoundPlayer {
   playSoundFile(fileName) {
     console.log("Playing sound file " + fileName);
   }
-}
+};
